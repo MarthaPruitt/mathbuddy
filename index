@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<html lang="eng"></html>
+<head>
+    <meta charset="UTF 8">
+    <meta name="viewport" content="width-device-width, inital scale=0">
+    <link rel="stylesheet" type="text/css"
+    href="styles/style.css">
+    <title>MathBuddy</title>
+</head>
+<body>
+<header>
+    <div class="container">
+        <h1>MathBuddy</h1>
+        <ul>
+            <li class="current"><a href="index.html">Add</a></li>
+        </ul>
+    </div>
+</header>
+<div class="wrapper">
+<div class="equation">
+    <h1 id="num1" style="color:bisque">1</h1>
+    <h1 style="color:blueviolet">+</h1>
+    <h1 id="num2" style="color:aquamarine">1</h1>
+    <h1 style="color:khaki">=</h1>
+    <h1 style="color:lemonchiffon">?</h1>
+</div>
+<div class="answer-options">
+    <h1 id="option1">1</h1>
+    <h1 id="option2">2</h1>
+    <h1 id="option3">3</h1>
+</div>
+</div>
+<script type="text/javascript" src="app/app.js"
