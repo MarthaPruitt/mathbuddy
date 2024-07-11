@@ -4,15 +4,21 @@ const option2 = document.getElementById("option2");
 const option3 = document.getElementById("option3");
 const audio = document.getElementById("wrong");
 
+const currentScore = document.getElementById("current-score");
+const timerDisplay = document.getElementById("timer");
+
 let answer = 0;
+let score = 0;
+let timeLeft = 100;
+let timer;
+
+
 
 function generateEquation() {
     let num1 = Math.floor(Math.random() * 13);
     let num2 = Math.floor(Math.random() * 13);
 
-    // let dummyAnswer1 = Math.floor(Math.random() * 13);
-    // let dummyAnswer2 = Math.floor(Math.random() * 13);
-    //Refactoring the code so that the options do not display the same answer
+
     do {
         dummyAnswer1 = Math.floor(Math.random() * 26);
     }
