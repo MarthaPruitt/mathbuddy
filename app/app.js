@@ -48,7 +48,7 @@ function generateEquation() {
     option3.innerHTML = switchAnswers[2];
 };
 function updateScore() {
-    timerDisplay.textContent = score;
+    currentScore.textContent = score;
 }
 function updateTimer() {
     timerDisplay.textContent = timeLeft;
